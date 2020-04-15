@@ -1,0 +1,20 @@
+server:
+  port: 8080
+  error:
+    whitelabel:
+      enabled: false
+      
+spring:
+  application:
+    name: geolocaliztion-spring
+    
+  mvc:
+    throw-exception-if-no-handler-found: true
+  resources:
+    add-mappings: false
+    
+    
+geolocalization:
+  api:
+    uri: 'https://maps.googleapis.com/maps/api/place/textsearch/json?'
+    apikey: AIzaSyAHHPmQ4a7AyvZgDU01o3CfUaSUvXxuJ5M
